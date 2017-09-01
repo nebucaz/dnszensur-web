@@ -6,7 +6,7 @@ Hierbei handelt es sich um die Webseite für [DNSzensur.ch](https://dnszensur.ch
 
 ### Lokal ausführen
 
-Voraussetzungen: `php7.0`, `php7.0-mysql` _(wurde mit diesen paketen und deren abhängigkeiten unter `Ubuntu 17.04` getestet)_ und eine lokale Datenbank die ein par domains enthält.
+Voraussetzungen: `php7.0`, `php7.0-mysql` _(wurde mit diesen paketen und deren abhängigkeiten unter `Ubuntu 17.04` getestet)_ und eine lokale MySQL-Datenbank die ein par domains enthält (Als Grundlage kann `exampledb.sql` benutzt werden).
 
 1. `git clone https://github.com/mritzmann/dnszensur-web.git`
 2. `mv .env-example .env`
@@ -15,3 +15,14 @@ Voraussetzungen: `php7.0`, `php7.0-mysql` _(wurde mit diesen paketen und deren 
 5. `php -S localhost:8080`
 
 Die Webseite ist nun unter [localhost:8080](http://localhost:8080/) erreichbar.
+
+### In Heroku ausühuren
+
+Voraussetzungen: [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), Heroku Account und eine MySQL-Datenbank die ein par Domains enthält und über das Internet erreichbar ist (Als Grundlage kann `exampledb.sql` benutzt werden).
+
+1. `git clone https://github.com/mritzmann/dnszensur-web.git`
+2. `heroku create`
+3. `heroku config:set DB_HOST='localhost' DB_NAME=dnszensur DB_PASSWORD=P@ssw00rd DB_USER=root` (Durch Deine eigenen Zugangsdaten ersetzen)
+4. `git push heroku master`
+
+Die Webseite ist nun unter der bei `heroku create` erhaltenen URL erreichbar. Alternativ lässt sich die Webseite mit `heroku open` öffnen.
