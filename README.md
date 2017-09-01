@@ -26,3 +26,7 @@ Voraussetzungen: [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli),
 4. `git push heroku master`
 
 Die Webseite ist nun unter der bei `heroku create` erhaltenen URL erreichbar. Alternativ lässt sich die Webseite mit `heroku open` öffnen.
+
+## Automatic deploys
+
+Every push to `master` will deploy a new version of [DNSzensur.ch](https://dnszensur.ch/). Deploys happen automatically: be sure that this branch in GitHub is always in a deployable state.
