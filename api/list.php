@@ -12,7 +12,9 @@ $ergebnis = mysqli_query($db, "SELECT domain, last_update_swisscom, last_update_
 $ausgabe = array();
 while($row =mysqli_fetch_assoc($ergebnis))
   {
+    if ($row[zensur_status_swisscom] == "2" || $row[zensur_status_upc] == "2") {
     $row[domain] = substr("$row[domain]", 0, 3) . "***";
+    }
 
     # for debuging
     # var_dump($row);
@@ -21,10 +23,10 @@ while($row =mysqli_fetch_assoc($ergebnis))
   }
 
 # for debuging
-echo json_encode($ausgabe);
+#echo json_encode($ausgabe);
 
 # json output write to file
-#$jsonecho = json_encode($ausgabe);
-#file_put_contents("list.json", $jsonecho);
+$jsonecho = json_encode($ausgabe);
+file_put_contents("list.json", $jsonecho);
 
 ?>
