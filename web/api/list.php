@@ -3,7 +3,7 @@
 header('Content-Type: application/json');
 
 # db connections
-include ("../include/db_connect.php");
+include ("../../db_connect.php");
 
 # mysql query
 $ergebnis = mysqli_query($db, "SELECT domain, last_update_swisscom, last_update_upc, zensur_status_swisscom, zensur_status_upc FROM domains WHERE zensur_status_swisscom LIKE '1' OR zensur_status_swisscom LIKE '2' OR zensur_status_swisscom LIKE '3' OR zensur_status_swisscom LIKE '4' OR zensur_status_upc LIKE '1' OR zensur_status_upc LIKE '2' OR zensur_status_upc LIKE '3' OR zensur_status_upc LIKE '4'");
@@ -12,8 +12,8 @@ $ergebnis = mysqli_query($db, "SELECT domain, last_update_swisscom, last_update_
 $ausgabe = array();
 while($row =mysqli_fetch_assoc($ergebnis))
   {
-    if ($row[zensur_status_swisscom] == "2" || $row[zensur_status_upc] == "2") {
-    $row[domain] = substr("$row[domain]", 0, 3) . "***";
+    if ($row['zensur_status_swisscom'] == "2" || $row['zensur_status_upc'] == "2") {
+    $row['domain'] = substr($row['domain'], 0, 3) . "***";
     }
 
     # for debuging

@@ -1,4 +1,4 @@
-<?php include ("include/db_connect.php"); /* stellt db verbindung her */ ?>
+<?php include ("../db_connect.php"); /* stellt db verbindung her */ ?>
 <?php
   $total = mysqli_query($db, "SELECT COUNT(domain) AS anzahl FROM domains");
   $totalrow = mysqli_fetch_assoc($total);
@@ -55,13 +55,13 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <?php include ("include/head.php"); ?>
+    <?php include ("../include/head.php"); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
   </head>
 
   <body>
 
-    <?php include ("include/nav.php"); ?>
+    <?php include ("../include/nav.php"); ?>
 
     <div class="container">
 
@@ -223,7 +223,7 @@
 
     </div><!-- /.container -->
 
-<?php include ("include/footer.php"); ?>
+<?php include ("../include/footer.php"); ?>
 
 
   </body>

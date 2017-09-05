@@ -1,13 +1,13 @@
-<?php include ("include/db_connect.php"); /* stellt db verbindung her */ ?>
+<?php include ("../db_connect.php"); /* stellt db verbindung her */ ?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <?php include ("include/head.php"); ?>
+    <?php include ("../include/head.php"); ?>
   </head>
 
   <body>
 
-    <?php include ("include/nav.php"); ?>
+    <?php include ("../include/nav.php"); ?>
 
     <div class="container">
 
@@ -15,11 +15,11 @@
         <h1>Datenbank: Gesperrte Webseiten</h1>
       </div>
 
-      <div id="unbekannt" class="panel panel-default">
+      <div id="phishing" class="panel panel-default">
         <!-- Default panel contents -->
-        <div class="panel-heading">Unbekannte Gründe</div>
+        <div class="panel-heading">Phishing</div>
         <div class="panel-body">
-          <p>Grund der Zensur wird vom Provider nicht genannt.</p>
+          <blockquote><p>Unter dem Begriff Phishing versteht man Versuche, über gefälschte Webseiten, E-Mails oder Kurznachrichten an persönliche Daten eines Internet-Benutzers zu gelangen und damit Identitätsdiebstahl zu begehen.</p><footer><a href="https://de.wikipedia.org/wiki/Phishing">Wikipedia</a> <cite title="Source Title"><a href="https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported">CC-by-sa-3.0</a></cite></footer></blockquote>
         </div>
 
         <!-- Table -->
@@ -29,7 +29,7 @@
           </thead>
           <tbody>
             <?php
-              $ergebnis = mysqli_query($db, "SELECT domain, last_update_swisscom, last_update_upc, zensur_status_swisscom, zensur_status_upc FROM domains WHERE zensur_status_swisscom LIKE '4' OR zensur_status_upc LIKE '4'");
+              $ergebnis = mysqli_query($db, "SELECT domain, last_update_swisscom, last_update_upc, zensur_status_swisscom, zensur_status_upc FROM domains WHERE zensur_status_swisscom LIKE '1' OR zensur_status_upc LIKE '1'");
 
               while($row = mysqli_fetch_object($ergebnis))
               {
@@ -58,7 +58,7 @@
 
     </div><!-- /.container -->
 
-<?php include ("include/footer.php"); ?>
+<?php include ("../include/footer.php"); ?>
 
   </body>
 </html>

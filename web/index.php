@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <?php include ("include/head.php"); ?>
+    <?php include ("../include/head.php"); ?>
   </head>
 
   <body>
 
-    <?php include ("include/nav.php"); ?>
+    <?php include ("../include/nav.php"); ?>
 
     <div class="jumbotron">
       <div class="container">
@@ -49,7 +49,7 @@
 
     </div><!-- /.container -->
 
-<?php include ("include/footer.php"); ?>
+<?php include ("../include/footer.php"); ?>
 
   </body>
 </html>
