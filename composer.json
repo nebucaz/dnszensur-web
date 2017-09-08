@@ -1,0 +1,12 @@
+{
+    "name": "mritzmann/dnszensur-web",
+    "description": "Website for dnszensur.ch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Ritzmann",
+            "email": "markus@dnszensur.ch"
+        }
+    ],
+    "require": {}
+}
