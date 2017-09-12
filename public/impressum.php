@@ -25,7 +25,8 @@
         <p>Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des Nutzers oder der Nutzerin.</p>
       <h3>Quelle</h3>
         <p>Dieses Impressum wurde am 03.06.2017 mit dem Impressum-Generator <a href="http://www.bag.ch/impressum-generator">http://www.bag.ch/impressum-generator</a> der Firma Brunner Medien AG in Kriens erstellt. Die Brunner Medien AG in Kriens übernimmt keine Haftung.</p>
-
+      <h3>Web Analytics</h3>
+        <iframe style="border: 0; height: 200px; width: 100%;" src="https://stat.dnszensur.ch/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
     </div><!-- /.container -->
 
 <?php include ("../include/footer.php"); ?>
