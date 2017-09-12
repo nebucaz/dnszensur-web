@@ -18,7 +18,7 @@
       <div id="anzahl" class="panel panel-default">
         <div class="panel-heading"><a href="#anzahl"><i class="fa fa-align-left" aria-hidden="true"></i></a> Wie viele Webseiten werden überprüft?</div>
         <div class="panel-body">
-          <p>Wir überprüfen regemlässig mehr als eine Million Webseiten. Die Liste der zu überprüfenden Webseiten wird laufend erweitert.</p>
+          <p>Wir überprüfen regemlässig mehr als eine Million Webseiten. Die Liste der zu überprüfenden Webseiten wird laufend erweitert. Als Quelle für neue Domains dient beispielsweise die <a href="https://github.com/citizenlab/test-lists" target="_blank">Testliste von Citizen Lab</a>, die unter anderem auch vom Tor Projekt <i>Ooni</i> verwendet wird.</p>
         </div>
       </div>
 
