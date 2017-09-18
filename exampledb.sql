@@ -25,10 +25,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur für Tabelle `exampledb`
+-- Tabellenstruktur für Tabelle `domains`
 --
 
-CREATE TABLE `exampledb` (
+CREATE TABLE `domains` (
   `domain` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `last_update_swisscom` date NOT NULL,
   `last_update_upc` date NOT NULL,
@@ -37,10 +37,10 @@ CREATE TABLE `exampledb` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Daten für Tabelle `exampledb`
+-- Daten für Tabelle `domains`
 --
 
-INSERT INTO `exampledb` (`domain`, `last_update_swisscom`, `last_update_upc`, `zensur_status_swisscom`, `zensur_status_upc`) VALUES
+INSERT INTO `domains` (`domain`, `last_update_swisscom`, `last_update_upc`, `zensur_status_swisscom`, `zensur_status_upc`) VALUES
 ('not-censored1.com', '2017-09-01', '2017-09-01', 0, 0),
 ('not-censored2.com', '2017-09-01', '2017-09-01', 0, 0),
 ('phishing-example1.com', '2017-09-01', '2017-09-01', 1, 1),
@@ -57,9 +57,9 @@ INSERT INTO `exampledb` (`domain`, `last_update_swisscom`, `last_update_upc`, `z
 --
 
 --
--- Indizes für die Tabelle `exampledb`
+-- Indizes für die Tabelle `domains`
 --
-ALTER TABLE `exampledb`
+ALTER TABLE `domains`
   ADD UNIQUE KEY `domain` (`domain`(255));
 COMMIT;
 
