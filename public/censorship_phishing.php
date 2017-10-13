@@ -23,42 +23,55 @@
         </div>
 
         <!-- Table -->
-        <table class="table" data-toggle="table" data-sort-name="domain">
+        <table id="table"
+               data-toggle="table"
+               data-url="https://issues17.api.dnszensur.ch/v1/list/phishing.json"
+               data-sort-name="domain"
+               data-search="true"
+               data-show-columns="true"
+               data-show-toggle="false">
           <thead>
-            <tr> <th data-field="domain" data-sortable="true">Gesperrte Webseiten</th> <th data-field="last_update_swisscom" data-sortable="true">zuletzt geprüft: Swisscom</th> <th data-field="last_update_upc" data-sortable="true">zuletzt geprüft: UPC</th></tr>
+            <tr>
+              <th data-field="domain" data-sortable="true">Webseite</th>
+              <th data-field="zensur_status_swisscom" data-sortable="true" data-formatter="zensurtypFormatter">Swisscom</th>
+              <th data-field="zensur_status_upc" data-sortable="true" data-formatter="zensurtypFormatter">UPC</th>
+              <th data-field="last_update_swisscom" data-sortable="true" data-visible="false">zuletzt geprüft: Swisscom</th>
+              <th data-field="last_update_upc" data-sortable="true" data-visible="false">zuletzt geprüft: UPC</th>
+            </tr>
           </thead>
-          <tbody>
-            <?php
-              $ergebnis = mysqli_query($db, "SELECT domain, last_update_swisscom, last_update_upc, zensur_status_swisscom, zensur_status_upc FROM domains WHERE zensur_status_swisscom LIKE '1' OR zensur_status_upc LIKE '1'");
-
-              while($row = mysqli_fetch_object($ergebnis))
-              {
-                $badge_swisscom = "<span class=\"label label-default\">Swisscom</span>";
-                $badge_upc      = "<span class=\"label label-default\">UPC</span>";
-                $badge          = "";
-
-                if ($row->zensur_status_swisscom) {
-                  $badge = $badge_swisscom;
-                }
-
-                if ($row->zensur_status_upc) {
-                  $badge = $badge . " " . $badge_upc;
-                }
-
-                // konvertiert Y-m-d zu d.m.Y
-                $zeit_swisscom = date("d.m.Y",strtotime($row->last_update_swisscom));
-                $zeit_upc = date("d.m.Y",strtotime($row->last_update_upc));
-
-                echo "<tr> <td>$row->domain $badge</td> <td>$zeit_swisscom</td> <td>$zeit_upc</td></tr>";
-              }
-            ?>
-          </tbody>
         </table>
       </div>
 
     </div><!-- /.container -->
 
 <?php include ("../include/footer.php"); ?>
+
+<script>
+
+  // Ersetzt id durch font awesome icons
+  function zensurtypFormatter(value) {
+    if (value.match(0)) {
+            var icon = 'fa-check text-success';
+            tooltiptext = 'nicht gesperrt';
+            } else if (value.match(1)) {
+              icon = 'fa-ban text-danger';
+              tooltiptext = 'gesperrt';
+            } else if (value.match(2)) {
+              icon = 'fa-ban text-danger';
+              tooltiptext = 'gesperrt';
+            } else if (value.match(3)) {
+            icon = 'fa-ban text-danger';
+            tooltiptext = 'gesperrt';
+            } else if (value.match(4)) {
+              icon = 'fa-ban text-danger';
+              tooltiptext = 'gesperrt';
+            } else {
+            icon = 'black';
+            };
+    return  '<i class="fa ' + icon + '" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="' + tooltiptext + '"></i>';
+  }
+
+</script>
 
   </body>
 </html>
