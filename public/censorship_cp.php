@@ -1,13 +1,13 @@
-<?php include ("../db_connect.php"); /* stellt db verbindung her */ ?>
+<?php include '../db_connect.php'; /* stellt db verbindung her */ ?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <?php include ("../include/head.php"); ?>
+    <?php include '../include/head.php'; ?>
   </head>
 
   <body>
 
-    <?php include ("../include/nav.php"); ?>
+    <?php include '../include/nav.php'; ?>
 
     <div class="container">
 
@@ -45,7 +45,7 @@
 
     </div><!-- /.container -->
 
-<?php include ("../include/footer.php"); ?>
+<?php include '../include/footer.php'; ?>
 
 <script>
 
