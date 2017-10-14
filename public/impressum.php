@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <?php include ("../include/head.php"); ?>
+    <?php include '../include/head.php'; ?>
   </head>
 
   <body>
 
-    <?php include ("../include/nav.php"); ?>
+    <?php include '../include/nav.php'; ?>
 
     <div class="container">
 
@@ -29,7 +29,7 @@
         <iframe style="border: 0; height: 200px; width: 100%;" src="https://stat.dnszensur.ch/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
     </div><!-- /.container -->
 
-<?php include ("../include/footer.php"); ?>
+<?php include '../include/footer.php'; ?>
 
   </body>
 </html>
