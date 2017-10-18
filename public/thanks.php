@@ -21,7 +21,11 @@
         <dd>Stellt freundlicherweise eine VM im Init7 Netz AS13030 zu Verfügung.</dd>
         <dt><a href="https://stackoverflow.com/">stackoverflow</a></dt>
         <dd>Die Suchmaschine meiner Wahl hat mich zu oft zu stackoverflow geführt &lt;3</dd>
+        <dt><a href="https://github.com/dnszensur">github contributors</a></dt>
+        <dd>Beitragende auf GitHub. Pull Requests erwünscht!</dd>
       </dl>
+
+      <p>Und alle anderen, die diesem Projekt in irgendeiner Form beigetragen haben!</p>
 
     </div><!-- /.container -->
 
