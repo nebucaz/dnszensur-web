@@ -1,6 +1,10 @@
 <footer class="footer hidden-print">
   <div class="container">
-    <p class="text-muted hidden-xs"><a href="https://github.com/dnszensur"><i class="fa fa-lg fa-github" aria-hidden="true"></i> GitHub</a> | <a href="thanks.php"><i class="fa fa-users" aria-hidden="true"></i> hall of fame</a> | <a href="impressum.php"><i class="fa fa-envelope" aria-hidden="true"></i> impressum</a></p>
+    <!-- Desktop Footer -->
+    <p class="text-muted hidden-xs pull-left"><a href="https://github.com/dnszensur"><i class="fa fa-lg fa-github" aria-hidden="true"></i> GitHub</a> | <a href="thanks.php"><i class="fa fa-users" aria-hidden="true"></i> hall of fame</a> | <a href="impressum.php"><i class="fa fa-envelope" aria-hidden="true"></i> impressum</a></p>
+    <p class="text-muted hidden-xs pull-right">Die <a href="https://api.dnszensur.ch/v1/list/">Datenbank</a> steht unter einer <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 Lizenz</a></p>
+
+    <!-- Smartphone Footer -->
     <p class="text-muted visible-xs-block"><a href="thanks.php"><i class="fa fa-users" aria-hidden="true"></i> hall of fame</a> | <a href="impressum.php"><i class="fa fa-envelope" aria-hidden="true"></i> impressum</a> | <a href="https://github.com/dnszensur"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a> | <a href="https://www.facebook.com/DNSzensur" title="Facebook"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a> | <a href="https://twitter.com/DNSzensur" title="Twitter"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></p>
   </div>
 </footer>
