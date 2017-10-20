@@ -11,12 +11,12 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Datenbank: Gesperrte Webseiten</h1>
+        <h1>Gesperrte Webseiten: Phishing</h1>
       </div>
 
       <div id="phishing" class="panel panel-default">
         <!-- Default panel contents -->
-        <div class="panel-heading">Phishing</div>
+        <div class="panel-heading">Datenbank</div>
         <div class="panel-body">
           <blockquote><p>Unter dem Begriff Phishing versteht man Versuche, über gefälschte Webseiten, E-Mails oder Kurznachrichten an persönliche Daten eines Internet-Benutzers zu gelangen und damit Identitätsdiebstahl zu begehen.</p><footer><a href="https://de.wikipedia.org/wiki/Phishing">Wikipedia</a> <cite title="Source Title"><a href="https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported">CC-by-sa-3.0</a></cite></footer></blockquote>
         </div>

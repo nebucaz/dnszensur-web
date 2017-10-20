@@ -11,12 +11,12 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Datenbank: Gesperrte Webseiten</h1>
+        <h1>Gesperrte Webseiten: Rechtliche Gründe</h1>
       </div>
 
       <div id="rechtlich" class="panel panel-default">
         <!-- Default panel contents -->
-        <div class="panel-heading">Rechtliche Gründe</div>
+        <div class="panel-heading">Datenbank</div>
         <div class="panel-body">
           <p>2002 wurden mehrere Internet Provider von einem waadtländischen Gericht zur Sperrung von mehreren Webseiten verpflichtet.</p>
           <ul>
