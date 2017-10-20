@@ -11,12 +11,12 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Datenbank: Gesperrte Webseiten</h1>
+        <h1>Gesperrte Webseiten: Kinderpornographie</h1>
       </div>
 
       <div id="kipo" class="panel panel-default">
         <!-- Default panel contents -->
-        <div class="panel-heading">Kinderpornographie</div>
+        <div class="panel-heading">Datenbank</div>
         <div class="panel-body">
           <blockquote><p>Der Begriff Kinderpornografie (manchmal auch mit KiPo oder CP für engl. Child Pornography abgekürzt) bezeichnet die in fast allen Rechtssystemen mit hohen Strafen sanktionierte Darstellung sexueller Handlungen von, an oder vor Kindern.</p><footer><a href="https://de.wikipedia.org/wiki/Kinderpornografie">Wikipedia</a> <cite title="Source Title"><a href="https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported">CC-by-sa-3.0</a></cite></footer></blockquote>
           <p>Aus Gründen werden die hier genannten KiPo-Domains zensiert.</p>

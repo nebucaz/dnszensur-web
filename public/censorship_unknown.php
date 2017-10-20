@@ -11,12 +11,12 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Datenbank: Gesperrte Webseiten</h1>
+        <h1>Gesperrte Webseiten: Unbekannte Gründe</h1>
       </div>
 
       <div id="unbekannt" class="panel panel-default">
         <!-- Default panel contents -->
-        <div class="panel-heading">Unbekannte Gründe</div>
+        <div class="panel-heading">Datenbank</div>
         <div class="panel-body">
           <p>Grund der Zensur wird vom Provider nicht genannt.</p>
         </div>
