@@ -38,8 +38,8 @@ function echoActiveClassIfRequestMatches($requestUri)
         <li class="<?=echoActiveClassIfRequestMatches('faq')?>"><a href="faq.php">FAQ</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right hidden-xs">
-        <li><a href="https://www.facebook.com/DNSzensur" title="Facebook"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href="https://twitter.com/DNSzensur" title="Twitter"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/DNSzensur" target="_blank" title="Facebook"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/DNSzensur" target="_blank" title="Twitter"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

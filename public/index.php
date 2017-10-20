@@ -31,11 +31,11 @@
       <div class="row">
         <div class="col-md-6">
           <h2>Projekt-Idee</h2>
-          <p>Schweizer Internet Anbieter sperren aus unterschiedlichsten Gründen gewisse Webseiten mittels DNS-Server. Wir überprüfen regelmässig mehr als eine Million Webseiten und findet gesperrte Webseiten.</p>
+          <p>Schweizer Internet Anbieter sperren aus unterschiedlichsten Gründen gewisse Webseiten mittels DNS-Server. Wir überprüfen regelmässig mehr als eine Million Webseiten und finden diejenigen, die via DNS-Server gesperrt werden.</p>
           <p>Die momentan gesperrten Webseiten können thematisch sortiert in der Zensur-Datenbank eingesehen werden.</p>
         </div>
         <div class="col-md-6">
-          <h2>Sind DNS-Sperren sinvoll?</h2>
+          <h2>Sind DNS-Sperren sinnvoll?</h2>
           <p>Nein. Löschen statt Sperren ist effektiver, vor allem weil DNS-Sperren einfach umgangen werden können. Zudem können nicht gut überlegte DNS-Sperren auch &laquo;legitime&raquo; Webseiten gefährden. Für viele Unternehmen könnte ein solcher Schaden existenzgefährdend sein.</p>
           <p>Weiterführende Links:</p>
             <ul>

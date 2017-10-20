@@ -34,7 +34,7 @@
       <div id="umgehen" class="panel panel-default">
         <div class="panel-heading"><a href="#umgehen"><i class="fa fa-align-left" aria-hidden="true"></i></a> Kann eine DNS-Sperre umgangen werden?</div>
         <div class="panel-body">
-          <p>Ja. Du kannst einen anderen DNS-Server benutzen der nicht zensiert.</p>
+          <p>Ja. Du kannst einen anderen DNS-Server benutzen, der nicht zensiert.</p>
             <ul>
               <li>Swiss Privacy Foundation: <a href="https://www.privacyfoundation.ch/de/service/dns-sperren.html" target="_blank">DNS-Sperren umgehen</a></li>
               <li>Digitalcourage: <a href="https://digitalcourage.de/support/zensurfreier-dns-server" target="_blank">Zensurfreier DNS-Server</a></li>
@@ -43,8 +43,8 @@
       </div>
 
       <!-- faq panel -->
-      <div id="sinvoll" class="panel panel-default">
-        <div class="panel-heading"><a href="#sinvoll"><i class="fa fa-align-left" aria-hidden="true"></i></a> Sind DNS-Sperren in manchen Fällen nicht sinvoll?</div>
+      <div id="sinnvoll" class="panel panel-default">
+        <div class="panel-heading"><a href="#sinnvoll"><i class="fa fa-align-left" aria-hidden="true"></i></a> Sind DNS-Sperren in manchen Fällen nicht sinnvoll?</div>
         <div class="panel-body">
           <p>Nein. Löschen statt Sperren ist effektiver, vor allem weil DNS-Sperren einfach umgangen werden können. Zudem können nicht gut überlegte DNS-Sperren auch &laquo;legitime&raquo; Webseiten gefährden. Für viele Unternehmen könnte ein solcher Schaden existenzgefährdend sein.</p>
           <p>Weiterführende Links:</p>
