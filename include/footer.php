@@ -12,7 +12,7 @@
 <script src="src/js/bootstrap.min.js"></script>
 <script src="src/js/bootstrap-table.min.js"></script>
 <script src="src/js/bootstrap-table-de-DE.min.js"></script>
-<!-- Piwik
+<!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -26,4 +26,4 @@
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-End Piwik Code -->
+<!-- End Piwik Code -->
