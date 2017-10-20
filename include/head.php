@@ -9,8 +9,8 @@
 <meta name="description" content="Schweizer Internet Anbieter wie Swisscom und UPC sperren gewisse Webseiten mittels DNS-Server. DNSzensur.ch überprüft regelmässig Tausende von Domains und findet gesperrte Webseiten." />
 
 <?php // page url for social media tags
-$url = ((empty($_SERVER['HTTPS'])) ? 'http://' : 'https://').$_SERVER['HTTP_HOST'];
-$full_url = ((empty($_SERVER['HTTPS'])) ? 'http://' : 'https://').$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
+$url = 'https://'.$_SERVER['HTTP_HOST'];
+$full_url = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
