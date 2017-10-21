@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!-- meta-infos -->
+<!-- meta infos -->
 <title>DNSzensur.ch</title>
 <meta name="author" content="Markus Ritzmann" />
 <meta name="description" content="Schweizer Internet Anbieter wie Swisscom und UPC sperren gewisse Webseiten mittels DNS-Server. DNSzensur.ch überprüft regelmässig Tausende von Domains und findet gesperrte Webseiten." />
