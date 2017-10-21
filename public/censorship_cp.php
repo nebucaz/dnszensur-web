@@ -26,7 +26,7 @@
         <!-- Table -->
         <table id="table"
                data-toggle="table"
-               data-url="https://issues17.api.dnszensur.ch/v1/list/cp.json"
+               data-url="https://api.dnszensur.ch/v1/list/cp.json"
                data-sort-name="domain"
                data-search="true"
                data-show-columns="true"
