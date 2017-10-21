@@ -11,6 +11,7 @@
     <div class="container">
 
       <div class="page-header">
+        <div class="alert alert-warning" role="alert">Jetzt das Referendum gegen Netzsperren durch das Geldspielgesetz <a href="https://www.digitale-gesellschaft.ch/referendum/" class="alert-link" target="_blank">unterschreiben</a>, um weitere Netzsperren zu verhindern!</div>
         <h1>Gesperrte Webseiten: Kinderpornographie</h1>
       </div>
 
