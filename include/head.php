@@ -19,7 +19,7 @@ $full_url = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
 <meta name="twitter:description" content="Auch Schweizer Internet Provider zensieren das Web." />
 <meta name="twitter:image" content="<?php echo $url ?>/src/img/sm_header.png" />
 
-<!-- Open Graph: Wird von Facebook benutzt -->
+<!-- Open Graph: facebook -->
 <meta property="og:url" content="<?php echo $full_url ?>" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="DNS Zensur in der Schweiz" />
